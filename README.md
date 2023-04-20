@@ -1,1 +1,1 @@
-# M1 ANDROIDE (Sorbonne - UPMC)
+# MASTER 1 ANDROIDE (Sorbonne - UPMC)
