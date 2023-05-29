@@ -2,11 +2,11 @@
 (AgeNts Distribues, Robotique, Recherche Opérationnelle, Interaction, DEcision)
 
 ## Liste des Matières (S1)
-* COMPLEX : Projet
-* LRC : Projet
-* MAPSI : TME
-* MOGPL : Projet
+* COMPLEX : Complexité, Algorithmes Probabilistes et Approchés
+* LRC : Logique et Représentations des Connaissances
+* MAPSI : Modèles et Algorithmes Probabilistes et Statistiques pour l'Informatique
+* MOGPL : Modèlisation, Optimisation, Graphes, et Programmation Linéaire
 
 ## Liste des Matières (S2)
-* ML - TME
-* RA : TME
+* ML - Machine Learning
+* RA : Robotique et Apprentissage
