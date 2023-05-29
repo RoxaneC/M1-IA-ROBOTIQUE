@@ -81,8 +81,11 @@ role(R) :-	rname(R), !.
 
 autoref(C, C).
 autoref(C, equiv(C,D)) :- remplace(D,DA), autoref(C,DA), !.
-autoref(C, and(A,B)) :-	autoref(C,A), autoref(C,B), !.
-autoref(C, or(A,B)) :-	autoref(C,A), autoref(C,B), !.
+autoref(C, D) :- equiv(D,E), remplace(E,EA), autoref(C,EA), !.
+autoref(C, and(A,B)) :-	autoref(C,A), !.
+autoref(C, and(A,B)) :-	autoref(C,B), !.
+autoref(C, or(A,B)) :-	autoref(C,A), !.
+autoref(C, or(A,B)) :-	autoref(C,B), !.
 autoref(C, some(R,B)) :-	autoref(C,B), !.
 autoref(C, all(R,B)) :-	autoref(C,B), !.
 
@@ -106,9 +109,9 @@ remplace(all(R, CNA), all(R, CA)) :- 	remplace(CNA, CA), !.
 % - mise sous nnf
 
 traitement_Tbox([], []).
-traitement_Tbox([(C,D) | Tbox], [(NC,ND) | L]) :- 	concept(C), concept(D), not(autoref(C,D)),
-													remplace(C,CA), remplace(D,DA),
-													nnf(CA, NC), nnf(DA,ND),
+traitement_Tbox([(C,D) | Tbox], [(C,ND) | L]) :- 	cnamea(C), concept(D), not(autoref(C,D)),
+													remplace(D,DA),
+													nnf(DA,ND),
 													traitement_Tbox(Tbox, L), !.
 
 
