@@ -8,5 +8,5 @@
 * MOGPL : Modèlisation, Optimisation, Graphes, et Programmation Linéaire
 
 ## Liste des Matières (S2)
-* ML - Machine Learning
+* ML : Machine Learning
 * RA : Robotique et Apprentissage
