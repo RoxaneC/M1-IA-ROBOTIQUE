@@ -7,6 +7,6 @@
 * MAPSI : TME
 * MOGPL : Projet
 
-## Liste des MAtières (S2)
+## Liste des Matières (S2)
 * ML - TME
 * RA : TME
