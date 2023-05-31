@@ -1,1 +1,2 @@
-# M1-COMPLEX-Projet
+# COMPLEX-Projet
+Complexité, Algorithmes Probabilistes et Approchés - Projet

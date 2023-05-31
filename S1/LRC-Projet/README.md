@@ -1,1 +1,2 @@
-# M1-LRC-Projet
+# LRC-Projet
+Logique et Représentations des Connaissances - Projet

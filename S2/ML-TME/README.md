@@ -1,2 +1,2 @@
-# M1-ML-TME
+# ML-TME
 Machine Learning - TP

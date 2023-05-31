@@ -1,2 +1,2 @@
-# M1-RA-TME
+# RA-TME
 Robotique et Apprentissage - TP

@@ -1,4 +1,4 @@
-# M1-MOGPL-Projet
+# MOGPL-Projet
 
 Ce projet a pour but de réflechir sur des questions d'optimisation équitable. Le code présent ici répond à plusieurs cas particuliers mentionnés dans l'article joint au sujet.
 
