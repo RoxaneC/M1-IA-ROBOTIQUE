@@ -6,6 +6,7 @@
 * LRC : Logique et Représentations des Connaissances
 * MAPSI : Modèles et Algorithmes Probabilistes et Statistiques pour l'Informatique
 * MOGPL : Modèlisation, Optimisation, Graphes, et Programmation Linéaire
+* SIGNAL : Traitement du Signal
 
 ## Liste des Matières (S2)
 * ML : Machine Learning
